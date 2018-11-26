@@ -24,8 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "七天网络 IM库"
 
   s.homepage     = "https://github.com/StrumElin/QTModuleIM.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -168,8 +167,7 @@ s.dependency "RongCloudIM/IMKit", "~> 2.8.3"
 s.dependency "FLAnimatedImage"
 s.dependency "MJExtension"
 s.dependency "SDWebImage"
-s.dependency "QTModuleNetwork","~> 0.0.2"
-s.dependency "QTModuleUtils","~> 0.0.2"
+
 
 
 end
