@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "QTModuleIM"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of QTModuleIM."
 
   # This description is used to generate tags and improve search results.
@@ -95,19 +95,19 @@ Pod::Spec.new do |s|
   s.subspec 'QTModuleIMResource' do |ss|
 
     ss.subspec 'Category' do |sss|
-        sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/Category/*.{h,m}'
+        sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/Category/**/*.{h,m}'
     end
 
     ss.subspec 'Common' do |sss|
-        sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/Commom/*.{h,m}'
+        sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/Commom/**/*.{h,m}'
     end
 
     ss.subspec 'ReactiveViewModel' do |sss|
-        sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/ReactiveViewModel/*.{h,m}'
+        sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/ReactiveViewModel/**/*.{h,m}'
     end
 
     ss.subspec 'Scene' do |sss|
-        sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/Scene/*.{h,m}'
+        sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/Scene/**/*.{h,m}'
     end
 
   end
