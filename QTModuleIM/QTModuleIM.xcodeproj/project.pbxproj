@@ -58,6 +58,7 @@
 		6A7DE06B21ABE32B00E9C85E /* QTModuleIM */ = {
 			isa = PBXGroup;
 			children = (
+				6A7DE08221ABE55D00E9C85E /* QTModuleIMResource */,
 				6A7DE06C21ABE32B00E9C85E /* AppDelegate.h */,
 				6A7DE06D21ABE32B00E9C85E /* AppDelegate.m */,
 				6A7DE06F21ABE32B00E9C85E /* ViewController.h */,
@@ -69,6 +70,13 @@
 				6A7DE07B21ABE32C00E9C85E /* main.m */,
 			);
 			path = QTModuleIM;
+			sourceTree = "<group>";
+		};
+		6A7DE08221ABE55D00E9C85E /* QTModuleIMResource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QTModuleIMResource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
