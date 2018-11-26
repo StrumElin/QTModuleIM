@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "QTIMLoginController.h"
 @interface ViewController ()
 
 @end
@@ -19,5 +19,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)loginPage:(id)sender {
+    QTIMLoginController *lg = [[QTIMLoginController alloc] initWithNibName:@"QTIMLoginController" bundle:nil];
+    [self.navigationController pushViewController:lg animated:YES];
+}
 
 @end

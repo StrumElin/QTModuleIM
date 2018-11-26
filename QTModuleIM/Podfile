@@ -1,5 +1,6 @@
 # Uncomment the next line to define a global platform for your project
-
+source 'https://github.com/StrumElin/MyCocoapods.git'
+source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
 
 target 'QTModuleIM' do
@@ -7,8 +8,14 @@ target 'QTModuleIM' do
   use_frameworks!
 
     pod 'RongCloudIM/IMLib', '~> 2.8.3'
-    pod 'RongCloudIM/IMKit', '~> 2.8.3'  
-
+    pod 'RongCloudIM/IMKit', '~> 2.8.3'
+    pod 'FLAnimatedImage'
+    pod 'MJExtension'
+    pod 'SDWebImage'
+    
+    pod 'QTModuleNetwork','0.0.2'
+    pod 'QTModuleUtils','0.0.2'
+    
   # Pods for QTModuleIM
 
 end

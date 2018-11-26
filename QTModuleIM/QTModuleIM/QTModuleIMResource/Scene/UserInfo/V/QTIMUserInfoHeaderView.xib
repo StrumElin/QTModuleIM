@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QTIMUserInfoHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YNU-0W-cxm">
+                    <rect key="frame" x="10" y="10" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="YNU-0W-cxm" secondAttribute="height" multiplier="1:1" id="fEu-l4-fbu"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOT-Ec-QUe">
+                    <rect key="frame" x="80" y="20" width="285" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdw-Qp-YWd">
+                    <rect key="frame" x="80" y="54" width="285" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="96N-vy-JIk">
+                    <rect key="frame" x="0.0" y="80" width="375" height="20"/>
+                    <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Oiu-vw-kvM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xdw-Qp-YWd" firstAttribute="bottom" secondItem="YNU-0W-cxm" secondAttribute="bottom" id="7xj-Y7-xih"/>
+                <constraint firstItem="xdw-Qp-YWd" firstAttribute="trailing" secondItem="XOT-Ec-QUe" secondAttribute="trailing" id="KoE-Qm-Y8d"/>
+                <constraint firstItem="YNU-0W-cxm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="OBZ-Nt-4Ay"/>
+                <constraint firstAttribute="trailing" secondItem="XOT-Ec-QUe" secondAttribute="trailing" constant="10" id="OZz-1E-aEk"/>
+                <constraint firstAttribute="bottom" secondItem="YNU-0W-cxm" secondAttribute="bottom" constant="30" id="S0f-CW-VnN"/>
+                <constraint firstAttribute="bottom" secondItem="96N-vy-JIk" secondAttribute="bottom" id="V94-oh-wox"/>
+                <constraint firstItem="96N-vy-JIk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XVO-CV-K2B"/>
+                <constraint firstItem="xdw-Qp-YWd" firstAttribute="leading" secondItem="XOT-Ec-QUe" secondAttribute="leading" id="ihv-1g-hHP"/>
+                <constraint firstItem="YNU-0W-cxm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="kBE-XQ-k9D"/>
+                <constraint firstItem="XOT-Ec-QUe" firstAttribute="leading" secondItem="YNU-0W-cxm" secondAttribute="trailing" constant="10" id="mIX-U9-UVH"/>
+                <constraint firstAttribute="trailing" secondItem="96N-vy-JIk" secondAttribute="trailing" id="sx8-Ts-tjK"/>
+                <constraint firstItem="XOT-Ec-QUe" firstAttribute="top" secondItem="YNU-0W-cxm" secondAttribute="top" constant="10" id="yTb-TC-A0U"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="avatarImgView" destination="YNU-0W-cxm" id="P41-Vu-PKg"/>
+                <outlet property="nameLabel" destination="XOT-Ec-QUe" id="QqD-iX-aSK"/>
+                <outlet property="phoneLabel" destination="xdw-Qp-YWd" id="Uep-6V-Z3i"/>
+            </connections>
+            <point key="canvasLocation" x="68" y="-133"/>
+        </view>
+    </objects>
+</document>
