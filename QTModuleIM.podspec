@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "QTModuleIM"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "A short description of QTModuleIM."
 
   # This description is used to generate tags and improve search results.
@@ -89,28 +89,28 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  =  "QTModuleIM/QTModuleIM/QTModuleIMResource/AppDelegate+QTIM.{h,m}"
-  s.source_files  =  "QTModuleIM/QTModuleIM/QTModuleIMResource/Resource/QTIMMacros.h"
+  # s.source_files  =  "QTModuleIM/QTModuleIM/QTModuleIMResource/AppDelegate+QTIM.{h,m}"
+  s.source_files  =  "QTModuleIM/QTModuleIM/QTModuleIMResource/**/*.{h,m}"
 
-  s.subspec 'QTModuleIMResource' do |ss|
+  # s.subspec 'QTModuleIMResource' do |ss|
 
-    ss.subspec 'Category' do |sss|
-        sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/Category/**/*.{h,m}'
-    end
+  #   ss.subspec 'Category' do |sss|
+  #       sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/Category/**/*.{h,m}'
+  #   end
 
-    ss.subspec 'Common' do |sss|
-        sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/Common/**/*.{h,m}'
-    end
+  #   ss.subspec 'Common' do |sss|
+  #       sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/Common/**/*.{h,m}'
+  #   end
 
-    ss.subspec 'ReactiveViewModel' do |sss|
-        sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/ReactiveViewModel/**/*.{h,m}'
-    end
+  #   # ss.subspec 'ReactiveViewModel' do |sss|
+  #   #     sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/ReactiveViewModel/**/*.{h,m}'
+  #   # end
 
-    ss.subspec 'Scene' do |sss|
-        sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/Scene/**/*.{h,m}'
-    end
+  #   ss.subspec 'Scene' do |sss|
+  #       sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/Scene/**/*.{h,m}'
+  #   end
 
-  end
+  # end
  
 
   s.resource_bundles={
@@ -167,6 +167,7 @@ s.dependency "RongCloudIM/IMKit", "~> 2.8.3"
 s.dependency "FLAnimatedImage"
 s.dependency "MJExtension"
 s.dependency "SDWebImage"
+s.dependency "ReactiveObjC","~> 3.1.0"
 
 
 
