@@ -9,7 +9,6 @@
 #import "RVMViewModel.h"
 #import <libkern/OSAtomic.h>
 #import "ReactiveObjC.h"
-
 // The number of seconds by which signal events are throttled when using
 // -throttleSignalWhileInactive:.
 static const NSTimeInterval RVMViewModelInactiveThrottleInterval = 1;

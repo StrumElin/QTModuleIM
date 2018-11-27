@@ -81,7 +81,6 @@
 		6A7DE1A321ABF70800E9C85E /* QTIMBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7DE13021ABF70700E9C85E /* QTIMBaseViewModel.m */; };
 		6A7DE1A421ABF70800E9C85E /* QTIMBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7DE13221ABF70700E9C85E /* QTIMBaseNavigationController.m */; };
 		6A7DE1A521ABF70800E9C85E /* QTIMBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7DE13321ABF70700E9C85E /* QTIMBaseController.m */; };
-		6A7DE1A621ABF70800E9C85E /* RVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7DE13721ABF70700E9C85E /* RVMViewModel.m */; };
 		6A7DE1A721ABF70800E9C85E /* BMChineseSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7DE13C21ABF70700E9C85E /* BMChineseSort.m */; };
 		6A7DE1A821ABF70800E9C85E /* AppDelegate+QTIM.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7DE13E21ABF70800E9C85E /* AppDelegate+QTIM.m */; };
 		6A7DE1A921ABF70800E9C85E /* QTIMLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7DE14021ABF70800E9C85E /* QTIMLoadingView.m */; };
@@ -106,6 +105,7 @@
 		6A7DE1BC21ABF70800E9C85E /* RongContactCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7DE16021ABF70800E9C85E /* RongContactCard.framework */; };
 		6A7DE1C021ABF71A00E9C85E /* QTIMLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7DE1BE21ABF71900E9C85E /* QTIMLoginController.m */; };
 		6A7DE1C121ABF71A00E9C85E /* QTIMLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A7DE1BF21ABF71A00E9C85E /* QTIMLoginController.xib */; };
+		6A7DE36D21ACD24800E9C85E /* RVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7DE36A21ACD24700E9C85E /* RVMViewModel.m */; };
 		76ABC435C3CED4F4563C670A /* Pods_QTModuleIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF357C3EC3429D23106C548 /* Pods_QTModuleIM.framework */; };
 /* End PBXBuildFile section */
 
@@ -236,9 +236,6 @@
 		6A7DE13321ABF70700E9C85E /* QTIMBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTIMBaseController.m; sourceTree = "<group>"; };
 		6A7DE13421ABF70700E9C85E /* QTIMBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTIMBaseNavigationController.h; sourceTree = "<group>"; };
 		6A7DE13521ABF70700E9C85E /* QTIMBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTIMBaseController.h; sourceTree = "<group>"; };
-		6A7DE13721ABF70700E9C85E /* RVMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVMViewModel.m; sourceTree = "<group>"; };
-		6A7DE13821ABF70700E9C85E /* ReactiveViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveViewModel.h; sourceTree = "<group>"; };
-		6A7DE13921ABF70700E9C85E /* RVMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVMViewModel.h; sourceTree = "<group>"; };
 		6A7DE13B21ABF70700E9C85E /* BMChineseSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMChineseSort.h; sourceTree = "<group>"; };
 		6A7DE13C21ABF70700E9C85E /* BMChineseSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMChineseSort.m; sourceTree = "<group>"; };
 		6A7DE13D21ABF70700E9C85E /* AppDelegate+QTIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+QTIM.h"; sourceTree = "<group>"; };
@@ -276,6 +273,9 @@
 		6A7DE1BD21ABF71900E9C85E /* QTIMLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTIMLoginController.h; sourceTree = "<group>"; };
 		6A7DE1BE21ABF71900E9C85E /* QTIMLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTIMLoginController.m; sourceTree = "<group>"; };
 		6A7DE1BF21ABF71A00E9C85E /* QTIMLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QTIMLoginController.xib; sourceTree = "<group>"; };
+		6A7DE36A21ACD24700E9C85E /* RVMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVMViewModel.m; sourceTree = "<group>"; };
+		6A7DE36B21ACD24700E9C85E /* ReactiveViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveViewModel.h; sourceTree = "<group>"; };
+		6A7DE36C21ACD24700E9C85E /* RVMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVMViewModel.h; sourceTree = "<group>"; };
 		7C8FB26140EA35D903F2EA72 /* Pods-QTModuleIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTModuleIM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QTModuleIM/Pods-QTModuleIM.debug.xcconfig"; sourceTree = "<group>"; };
 		833C031C5602AF2F72247657 /* Pods-QTModuleIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTModuleIM.release.xcconfig"; path = "Pods/Target Support Files/Pods-QTModuleIM/Pods-QTModuleIM.release.xcconfig"; sourceTree = "<group>"; };
 		CAF357C3EC3429D23106C548 /* Pods_QTModuleIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QTModuleIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -352,12 +352,12 @@
 		6A7DE08221ABE55D00E9C85E /* QTModuleIMResource */ = {
 			isa = PBXGroup;
 			children = (
+				6A7DE36921ACD24700E9C85E /* ReactiveViewModel */,
 				6A7DE13D21ABF70700E9C85E /* AppDelegate+QTIM.h */,
 				6A7DE13E21ABF70800E9C85E /* AppDelegate+QTIM.m */,
 				6A7DE13A21ABF70700E9C85E /* BMChineseSort */,
 				6A7DE14821ABF70800E9C85E /* Category */,
 				6A7DE13F21ABF70800E9C85E /* Common */,
-				6A7DE13621ABF70700E9C85E /* ReactiveViewModel */,
 				6A7DE15321ABF70800E9C85E /* Resource */,
 				6A7DE16021ABF70800E9C85E /* RongContactCard.framework */,
 				6A7DE0A621ABF70700E9C85E /* Scene */,
@@ -688,16 +688,6 @@
 			path = C;
 			sourceTree = "<group>";
 		};
-		6A7DE13621ABF70700E9C85E /* ReactiveViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				6A7DE13721ABF70700E9C85E /* RVMViewModel.m */,
-				6A7DE13821ABF70700E9C85E /* ReactiveViewModel.h */,
-				6A7DE13921ABF70700E9C85E /* RVMViewModel.h */,
-			);
-			path = ReactiveViewModel;
-			sourceTree = "<group>";
-		};
 		6A7DE13A21ABF70700E9C85E /* BMChineseSort */ = {
 			isa = PBXGroup;
 			children = (
@@ -763,6 +753,16 @@
 				6A7DE15D21ABF70800E9C85E /* back.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		6A7DE36921ACD24700E9C85E /* ReactiveViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6A7DE36A21ACD24700E9C85E /* RVMViewModel.m */,
+				6A7DE36B21ACD24700E9C85E /* ReactiveViewModel.h */,
+				6A7DE36C21ACD24700E9C85E /* RVMViewModel.h */,
+			);
+			path = ReactiveViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -970,6 +970,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A7DE36D21ACD24800E9C85E /* RVMViewModel.m in Sources */,
 				6A7DE1A321ABF70800E9C85E /* QTIMBaseViewModel.m in Sources */,
 				6A7DE1AA21ABF70800E9C85E /* QTIMDataSourceManager.m in Sources */,
 				6A7DE16921ABF70800E9C85E /* QTIMSelectPersonViewModel.m in Sources */,
@@ -998,7 +999,6 @@
 				6A7DE18C21ABF70800E9C85E /* QTIMAddressBookModel.m in Sources */,
 				6A7DE1A721ABF70800E9C85E /* BMChineseSort.m in Sources */,
 				6A7DE07C21ABE32C00E9C85E /* main.m in Sources */,
-				6A7DE1A621ABF70800E9C85E /* RVMViewModel.m in Sources */,
 				6A7DE1C021ABF71A00E9C85E /* QTIMLoginController.m in Sources */,
 				6A7DE1AC21ABF70800E9C85E /* SeptnetHttp.m in Sources */,
 				6A7DE18921ABF70800E9C85E /* QTIMAddressBookViewModel.m in Sources */,

@@ -99,7 +99,7 @@ Pod::Spec.new do |s|
     end
 
     ss.subspec 'Common' do |sss|
-        sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/Commom/**/*.{h,m}'
+        sss.source_files = 'QTModuleIM/QTModuleIM/QTModuleIMResource/Common/**/*.{h,m}'
     end
 
     ss.subspec 'ReactiveViewModel' do |sss|
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
     'QTIMBundles' => ['QTModuleIM/QTModuleIM/QTModuleIMResource/**/*.{xib,nib,storyboard,png,jpg,plist,json}']
   }
   
-  s.vendored_frameworks = ['QTModuleIM/QTModuleIM/QTModuleIMResource/RongContactCard.frameworks']
+  s.vendored_frameworks = ['QTModuleIM/QTModuleIM/QTModuleIMResource/RongContactCard.framework']
 
   s.exclude_files = "Classes/Exclude"
 

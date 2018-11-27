@@ -19,13 +19,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "QTModuleIM/QTModuleIMResource/Common/SeptnetHttp.m"
-            timestampString = "564919089.68924"
+            filePath = "QTModuleIM/QTModuleIMResource/ReactiveViewModel/RVMViewModel.m"
+            timestampString = "564975675.919567"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
-            landmarkName = "+racPostRequestWithUrl:param:"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "-didBecomeActiveSignal"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -35,14 +35,126 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "QTModuleIM/QTModuleIMResource/Common/QTIMBridgeManager.m"
-            timestampString = "564919089.69016"
+            filePath = "QTModuleIM/QTModuleIMResource/ReactiveViewModel/RVMViewModel.m"
+            timestampString = "564975675.919673"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "-connectRongServerWithUserInfo:completion:"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-didBecomeInactiveSignal"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QTModuleIM/QTModuleIMResource/ReactiveViewModel/RVMViewModel.m"
+            timestampString = "564975675.919734"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-setActive:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QTModuleIM/QTModuleIMResource/ReactiveViewModel/RVMViewModel.m"
+            timestampString = "564975675.91979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-forwardSignalWhileActive:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RVMViewModel forwardSignalWhileActive:]"
+                  moduleName = "QTModuleIM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhoupengkai/Desktop/Module/SeptnetModules/QTModuleIM/QTModuleIM/QTModuleIM/QTModuleIMResource/ReactiveViewModel/RVMViewModel.m"
+                  timestampString = "564976197.127809"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RVMViewModel forwardSignalWhileActive:]"
+                  moduleName = "QTModuleIM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhoupengkai/Desktop/Module/SeptnetModules/QTModuleIM/QTModuleIM/QTModuleIM/QTModuleIMResource/ReactiveViewModel/RVMViewModel.m"
+                  timestampString = "564976197.130993"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QTModuleIM/QTModuleIMResource/ReactiveViewModel/RVMViewModel.m"
+            timestampString = "564975675.919844"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "-throttleSignalWhileInactive:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RVMViewModel throttleSignalWhileInactive:]"
+                  moduleName = "QTModuleIM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhoupengkai/Desktop/Module/SeptnetModules/QTModuleIM/QTModuleIM/QTModuleIM/QTModuleIMResource/ReactiveViewModel/RVMViewModel.m"
+                  timestampString = "564976197.138576"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RVMViewModel throttleSignalWhileInactive:]"
+                  moduleName = "QTModuleIM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhoupengkai/Desktop/Module/SeptnetModules/QTModuleIM/QTModuleIM/QTModuleIM/QTModuleIMResource/ReactiveViewModel/RVMViewModel.m"
+                  timestampString = "564976197.141667"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

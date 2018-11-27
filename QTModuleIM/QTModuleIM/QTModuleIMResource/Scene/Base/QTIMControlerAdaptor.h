@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-
 @class QTIMBaseViewModel;
 
 @protocol QTIMControlerAdaptor <NSObject>
