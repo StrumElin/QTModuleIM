@@ -114,7 +114,7 @@ Pod::Spec.new do |s|
  
 
   s.resource_bundles={
-    'QTIMBundles' => ['QTModuleIM/QTModuleIM/QTModuleIMResource/**/*.{xib,nib,storyboard,png,jpg,plist,json}']
+    'QTIMBundles' => ['QTModuleIM/QTModuleIM/QTModuleIMResource/**/*.{xib,nib,storyboard,png,jpg,json}']
   }
   
   s.vendored_frameworks = ['QTModuleIM/QTModuleIM/QTModuleIMResource/RongContactCard.framework']
@@ -145,6 +145,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
+  s.frameworks = 'UIKit','UserNotifications'
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
@@ -168,6 +169,8 @@ s.dependency "FLAnimatedImage"
 s.dependency "MJExtension"
 s.dependency "SDWebImage"
 s.dependency "ReactiveObjC","~> 3.1.0"
+s.dependency "AFNetworking","~> 3.0"
+s.dependency "PureLayout"
 
 
 

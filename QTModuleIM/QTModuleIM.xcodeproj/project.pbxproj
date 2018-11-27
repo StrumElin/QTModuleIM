@@ -717,16 +717,16 @@
 		6A7DE14821ABF70800E9C85E /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				6A7DE14921ABF70800E9C85E /* NSString+QTIM.m */,
-				6A7DE14A21ABF70800E9C85E /* UIColor+RCColor.h */,
-				6A7DE14B21ABF70800E9C85E /* UINavigationController+QTIM.m */,
-				6A7DE14C21ABF70800E9C85E /* UIAlertController+Blocks.m */,
-				6A7DE14D21ABF70800E9C85E /* UIImage+QTIM.h */,
-				6A7DE14E21ABF70800E9C85E /* UIAlertController+Blocks.h */,
-				6A7DE14F21ABF70800E9C85E /* UINavigationController+QTIM.h */,
-				6A7DE15021ABF70800E9C85E /* UIColor+RCColor.m */,
 				6A7DE15121ABF70800E9C85E /* NSString+QTIM.h */,
+				6A7DE14921ABF70800E9C85E /* NSString+QTIM.m */,
+				6A7DE14E21ABF70800E9C85E /* UIAlertController+Blocks.h */,
+				6A7DE14C21ABF70800E9C85E /* UIAlertController+Blocks.m */,
+				6A7DE14A21ABF70800E9C85E /* UIColor+RCColor.h */,
+				6A7DE15021ABF70800E9C85E /* UIColor+RCColor.m */,
+				6A7DE14D21ABF70800E9C85E /* UIImage+QTIM.h */,
 				6A7DE15221ABF70800E9C85E /* UIImage+QTIM.m */,
+				6A7DE14F21ABF70800E9C85E /* UINavigationController+QTIM.h */,
+				6A7DE14B21ABF70800E9C85E /* UINavigationController+QTIM.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
